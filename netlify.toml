@@ -1,7 +1,6 @@
 [build]
 publish = "site"
 command = """
-source /opt/buildhome/python3.8/bin/activate
 pipenv install
 pipenv run build
 """
